@@ -1,0 +1,29 @@
+$containerWidth: 1920px;
+$h1FontSize: 48px;
+$h2FontSize: 36px;
+$h3FontSize: 24px;
+$h4FontSize: 18px;
+$h5FontSize: 16px;
+$h6FontSize: 14px;
+$pFontSize: 12px;
+$priceFrontSize: 21px;
+
+$mainColor: #000000;
+$textColor: #FFFFFF;
+$backgroundColor: #66C05D;
+$accentColor: #E5E5E5;
+$borderColor: #EFEFEF;
+$pColor: #828282;;
+
+$baseFont: 'Roboto';
+
+@import "https://necolas.github.io/normalize.css/latest/normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@import "layout";
+@import "./components/header.scss";
+@import "./components/description.scss";
+@import "./components/catalog.scss";
+@import "./components/news.scss";
+@import "./components/footer.scss";

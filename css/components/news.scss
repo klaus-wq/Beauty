@@ -1,0 +1,40 @@
+.news {
+
+    &__container {
+        background: $borderColor;
+        padding-bottom: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 40px;
+    }
+
+    &__block {
+        display: flex;
+        column-gap: 60px;
+        align-items: center;
+        justify-content: center;
+        background: $backgroundColor;
+        padding: 40px 20px;
+        width: 50%;
+    }
+
+    &__text {
+        margin-bottom: 25px;
+        color: $textColor;
+    }
+
+    &__input {
+        padding: 9px 100px 9px 25px;
+        border: none;
+        border-radius: 30px;
+    }
+}
+
+input {
+
+    &::-webkit-input-placeholder { font-family: $baseFont;}
+    &::-moz-placeholder { font-family: $baseFont;}
+    &:-ms-input-placeholder { font-family: $baseFont;}
+    &:-moz-placeholder { font-family: $baseFont;}
+}

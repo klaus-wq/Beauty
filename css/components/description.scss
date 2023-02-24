@@ -1,0 +1,26 @@
+.description {
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $backgroundColor;
+        padding: 60px 0;
+    }
+
+    &__button {
+        padding: 9px 26px;
+        background: $backgroundColor; 
+        border: 2px solid $textColor;
+        border-radius: 40px;
+    }
+
+    &__more {
+        color: $textColor;
+    }
+
+    &__text {
+        margin-bottom: 50px;
+        color: $textColor;
+    }
+}

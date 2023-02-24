@@ -1,0 +1,50 @@
+.catalog {
+
+    &__container {
+        background: $borderColor;
+        padding: 80px 0;
+        display: block;
+    }
+
+    &__title {
+        margin-bottom: 38px;
+    }
+    
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 30px;
+    }
+
+    &__item {
+        background: $textColor;
+        padding: 25px 50px;
+        text-align: center;
+    }
+
+    &__picture {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        margin-bottom: 20px;
+    }
+
+    &__price {
+        font-size: $priceFrontSize;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        padding: 9px 40px;
+        background: $backgroundColor; 
+        border: none;
+        border-radius: 40px;
+    }
+
+    &__more {
+        color: $textColor;
+    }
+}

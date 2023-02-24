@@ -1,0 +1,53 @@
+.header {
+
+    &__middle {
+        padding: 20px 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 500px;
+        border: 1px solid $borderColor;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+
+    &__contacts {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+    }
+}
+
+.menu {
+
+    width: 100%;
+    background-color: $accentColor;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 30px;
+        padding: 16px 0;
+    }
+
+    &__item {
+        white-space: nowrap;
+    }
+
+    &__background {
+        background: $textColor;
+    }
+}
+
+.button {
+    padding: 12px 26px;
+    background: $textColor;
+    border: 2px solid $backgroundColor;
+    border-radius: 40px;
+}
