@@ -4,8 +4,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        // padding: 60px 0;
+    }
+
+    &__background {
         background-color: $backgroundColor;
-        padding: 60px 0;
     }
 
     &__button {
@@ -22,5 +25,17 @@
     &__text {
         margin-bottom: 50px;
         color: $textColor;
+    }
+
+    &__circle1 {
+        height: calc(100% - 500px);
+        background: rgba(255, 255, 255, 0.3);;
+        border-radius: 50%; 
+        padding: 91px;
+    }
+
+    &__circle2 {
+        background: rgba(255, 255, 255, 0.4);;
+        border-radius: 50%; 
     }
 }

@@ -1,12 +1,15 @@
 .news {
 
     &__container {
-        background: $borderColor;
-        padding-bottom: 130px;
+        padding-bottom: 80px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         column-gap: 40px;
+    }
+
+    &__background {
+        background: $borderColor;
     }
 
     &__block {

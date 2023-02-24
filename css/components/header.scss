@@ -1,5 +1,13 @@
 .header {
 
+    &__background {
+        background: $accentColor;
+    }
+
+    &__border {
+        border-bottom: 1px solid $borderColor;
+    }
+
     &__middle {
         padding: 20px 0;
         width: 100%;
@@ -7,7 +15,6 @@
         align-items: center;
         justify-content: center;
         gap: 500px;
-        border: 1px solid $borderColor;
     }
 
     &__logo {
@@ -26,7 +33,6 @@
 .menu {
 
     width: 100%;
-    background-color: $accentColor;
 
     &__list {
         display: flex;
