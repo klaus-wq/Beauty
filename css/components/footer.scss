@@ -7,12 +7,16 @@
     &__right {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
         column-gap: 40px;
     }
 
     &__top {
-        padding: 37px 0;
+        padding: 37px 10px;
+        gap: 10px;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
     }
@@ -22,10 +26,14 @@
     }
 
     &__bottom {
-        padding: 25px 0;
+        padding: 25px 10px;
         display: flex;
         align-items: center;
         justify-content: space-around;
+    }
+
+    &__tel {
+        white-space: nowrap;
     }
 }
 
@@ -36,5 +44,15 @@
         column-gap: 20px;
         align-items: center;
         justify-content: centers;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .footer {
+
+        &__right {
+            gap: 10px;
+        }
     }
 }

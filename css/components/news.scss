@@ -6,6 +6,9 @@
         align-items: center;
         justify-content: space-between;
         column-gap: 40px;
+        row-gap: 10px;
+        padding: 10px 20px;
+        padding-bottom: 130px;
     }
 
     &__background {
@@ -18,8 +21,14 @@
         align-items: center;
         justify-content: center;
         background: $backgroundColor;
-        padding: 40px 20px;
-        width: 50%;
+        padding: 40px;
+        // width: 50%;
+        width: 100%;
+        height: 40vh;
+
+        &--left {
+            justify-content: start;
+        }
     }
 
     &__text {
@@ -28,9 +37,10 @@
     }
 
     &__input {
-        padding: 9px 100px 9px 25px;
+        padding: 9px 0 9px 25px;
         border: none;
         border-radius: 30px;
+        width: 100%;
     }
 }
 
@@ -40,4 +50,38 @@ input {
     &::-moz-placeholder { font-family: $baseFont;}
     &:-ms-input-placeholder { font-family: $baseFont;}
     &:-moz-placeholder { font-family: $baseFont;}
+}
+
+@media (max-width: 1000px) {
+
+    .news {
+
+        &__container {
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 60px;
+        }
+
+        &__block {
+            height: 25vh;
+            justify-content: center;
+            // width: 100%;
+        }
+
+        &__text {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+
+    .news {
+
+        &__block {
+            flex-wrap: wrap;
+            padding: 20px;
+            height: 100%;
+        }
+    }
 }
